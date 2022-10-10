@@ -1,0 +1,10 @@
+.elevator {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 1rem;
+  &__floor {
+    font-size: 5rem;
+  }
+}

@@ -1,0 +1,16 @@
+// normally would use something like styled-components but its an overkill for this app
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  button {
+    width: 55px;
+    height: 55px;
+    margin: 0.5rem 0;
+    border-radius: 50%;
+    font-size: 2rem;
+    border: none;
+    cursor: pointer;
+  }
+}
